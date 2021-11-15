@@ -1,4 +1,13 @@
 # b3_cnn_tutorial
+
+
+Convolutional Neural Networksを使った画像分類(MNIST)
+
+![mnist-3 0 1](https://user-images.githubusercontent.com/46900773/141707754-c3691394-6743-4308-b51d-186c1b56833a.png)
+
+
+
+
 使い方
 1. このプログラムを自分のPCに保存する<br>
 以下のコマンドを打つか、<br>

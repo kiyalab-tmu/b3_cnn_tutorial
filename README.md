@@ -13,5 +13,4 @@ pip install -r requirements.txt
 Python main.py で実行
 <br>
 <br>
-<br>
-学習状況が表示されて、AccuracyとLossの履歴グラフが保存されたら完了です！accuracy_history.pngとloss_history.png
+学習状況が表示されて、AccuracyとLossの履歴グラフが保存されたら完了です！(accuracy_history.pngとloss_history.png)

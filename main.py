@@ -13,7 +13,7 @@ from model import get_model
 # ================
 # 手動設定パラメータ
 # ================
-model_name = 'resnet50' # 'cnn'か'resnet50' か 'my_cnn' (model.pyを参照)
+model_name = 'cnn' # 'cnn'か'resnet50' か 'my_cnn' (model.pyを参照)
 epoch = 25
 learning_rate = 0.0001
 batch_size = 16

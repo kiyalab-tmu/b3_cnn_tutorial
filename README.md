@@ -1,8 +1,8 @@
 # b3_cnn_tutorial
 
 
-Convolutional Neural Networksを使った画像分類(MNIST)
-<img src='https://user-images.githubusercontent.com/46900773/141707754-c3691394-6743-4308-b51d-186c1b56833a.png' width='200'>
+Convolutional Neural Networksを使った画像分類(MNIST) <br>
+<img src='https://user-images.githubusercontent.com/46900773/141707754-c3691394-6743-4308-b51d-186c1b56833a.png' width='200' align='left'>
 
 
 使い方

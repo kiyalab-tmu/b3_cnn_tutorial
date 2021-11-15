@@ -1,7 +1,7 @@
 # b3_cnn_tutorial
 使い方
 1. このプログラムを自分のPCに保存する<br>
-以下のコマンドを打つか、
+以下のコマンドを打つか、<br>
 (git clone https://github.com/kiyalab-tmu/b3_cnn_tutorial.git)<br>
 Download ZIP で持ってくる
 

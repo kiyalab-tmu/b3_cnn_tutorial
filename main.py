@@ -66,10 +66,21 @@ print(model.summary())
 history = model.fit(train_images, train_labels, epochs=epoch, validation_split=0.2, verbose=2)
 
 
+
 # ============
 # モデルをテスト
 # ============
-test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2)
+test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2) #予測結果から正解率まで自動計算
+
+"""
+追加
+"""
+predictions = model.predict(test_images) #予測結果のみ取得
+print(predictions[0]) #テストデータセットの1枚目の予測結果。(各数字である確率)
+print(predictions[0].argmax()) #テストデータセットの1枚目の予測結果。(何の数字か。)
+"""
+追加ここまで
+"""
 
 print('test_loss', test_loss)
 print('test_accuracy', test_acc)

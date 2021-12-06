@@ -118,6 +118,9 @@ tf.keras.models.save_model(model, 'model.h5')
 predictions = model.predict(test_images) #予測結果のみ取得
 print(predictions[0]) #テストデータセットの1枚目の予測結果。(各数字である確率)
 print(predictions[0].argmax()) #テストデータセットの1枚目の予測結果。(何の数字か。)
+print('#################################')
+for i in range(predictions.shape[0]):
+    print(predictions[i].argmax())
 """
 追加ここまで
 """

@@ -75,6 +75,7 @@ test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2) #予�
 """
 追加
 """
+tf.keras.models.save_model(model, 'model.h5')
 predictions = model.predict(test_images) #予測結果のみ取得
 print(predictions[0]) #テストデータセットの1枚目の予測結果。(各数字である確率)
 print(predictions[0].argmax()) #テストデータセットの1枚目の予測結果。(何の数字か。)

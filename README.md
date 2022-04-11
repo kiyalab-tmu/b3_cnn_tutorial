@@ -20,3 +20,15 @@ Python main.py で実行
 <br>
 <br>
 学習状況が表示されて、AccuracyとLossの履歴グラフが保存されたら完了です！(accuracy_history.pngとloss_history.png)
+
+
+--- 
+
+## docker環境構築
+m1などlocalで起動が困難な場合、docker環境での開発を検討してください。
+
+
+```
+docker-compose build
+docker-compose up -d
+```

@@ -1,0 +1,10 @@
+deeplearning:
+  user: root
+  build: .
+  dockerfile: "NvidiaDockerfile"
+  environment:
+    ENV: DEV
+  ports:
+    - "8888:8888"
+  container_name: deeplearning
+  #command: python3 manage.py runserver 0.0.0.0:5000 
